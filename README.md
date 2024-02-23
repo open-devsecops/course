@@ -1,6 +1,5 @@
-# DevSecOps Curriculum: Bridging the Gap in Software Engineering Education 🌉🎓
-## Introduction 📖
-Welcome to our open-source DevSecOps curriculum. This comprehensive resource is designed to equip new graduates, companies, professors, students, and self-learners with practical skills in DevSecOps, thereby bridging the knowledge gap in its principles and practices. Our curriculum prepares students for a smooth transition from academic learning to the professional environment by focusing on real-world applications.
+## Course Overview 📖
+[Topics and Chapters here]
 
 ## What is DevSecOps and CI/CD? 🔍
 **DevSecOps** is an integration of **development** (Dev), **security** (Sec), and **operations** (Ops) practices. It's a cultural shift that emphasizes security as a fundamental part of the software development lifecycle. By introducing security early in the development process, DevSecOps ensures that it's a shared responsibility and not just an afterthought.<sup>1-3</sup>
