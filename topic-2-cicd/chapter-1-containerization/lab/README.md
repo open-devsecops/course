@@ -3,6 +3,13 @@
 ## Introduction
 This lab introduces the concepts of containerization with Docker and the use of AWS Elastic Container Registry (ECR) as a shared container registry. You'll gain hands-on experience by containerizing a React application and pushing the container image to a shared registry. This exercise is crucial for understanding how applications are packaged and distributed in a DevSecOps workflow.
 
+## Labs Overview
+
+| Topic                                          |
+|------------------------------------------------|
+| [Containerizing a React Application](lab1.md)            |
+| [Connecting to the Internal Network & Pushing Image to AWS ECR](lab2.md) |
+
 ## Prerequisites
 
 ### Tools
@@ -22,10 +29,3 @@ Below are the skills and knowledge expected to successfully complete the lab exe
 - Basic command-line operations: You are comfortable navigating and executing commands in a terminal.
 - Basic Git operations: cloning, forking, committing, pushing.
 - Basic React knowledge: You understand how to run a React application locally
-
-## Labs Overview
-
-| Topic                                          | Link to Lab                                  |
-|------------------------------------------------|----------------------------------------------|
-| Containerizing a React Application            | [Lab 1 Markdown File](lab1.md)      |
-| Connecting to the Internal Network & Pushing Image to AWS ECR | [Lab 2 Markdown File](lab2.md) |
