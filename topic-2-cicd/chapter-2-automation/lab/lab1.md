@@ -10,9 +10,6 @@ In this lab, you will automate the process of building, and deploying a Dockeriz
 - Download the VPN configuration file from `http://{public_ip}:7779`. Ask the lab administrator for the public ip of the internal network, and replace the `{public_ip}` placeholder.
 - Import the VPN configuration file into the Wireguard Client to establish the VPN connection. This step provides access to internal services.
 
-**Navigate to the Dashboard:**
-- With the VPN connection established, access `http://dashboard.internal` on your browser. This internal service dashboard is your gateway to various corporate resources.
-
 ## Accessing Jenkins
 Once you're connected to the VPN, navigate to `http://jenkins.internal` in your browser to access the Jenkins dashboard. The default credentials can be found below:
 - **Username:** student
