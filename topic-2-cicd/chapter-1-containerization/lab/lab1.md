@@ -6,6 +6,9 @@
 - Interact with a running Docker container
 - Understand Docker container isolation
 
+## Introduction
+Welcome :wave: This lab serves as your first step into container technology, empowering you with the skills to package and isolate a React application in a Docker container.
+
 ## Fork and Clone the Reference Application
 Let' start by forking the reference application repository. This will create a copy that you can modify and use without affecting the original codebase. Cloning will then brings this copy to your local machine.
 
