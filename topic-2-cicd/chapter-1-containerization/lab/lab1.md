@@ -11,8 +11,6 @@ Let' start by forking the reference application repository. This will create a c
 
 1. **Fork the Repository:** Navigate to the [reference application](https://github.com/open-devsecops/topic-2-lab-reference-app) and fork the repository to your own GitHub account.
 
-<img align="center" src="imgs/fork.png" width="128"/><br>
-
 2. **Clone Your Fork:** Open your terminal and clone the forked repository to your local machine using `git clone <your-fork-url>`.
 
 ## Run the React Application Locally
