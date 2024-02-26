@@ -111,11 +111,31 @@ docker run -p 8080:80 my-app
 
 This command starts a container from the my-app image that we just created, mapping port 8080 from your host machine to port 80 inside your container. Now, if you navigate to `http://localhost:8080`, you should see the same React application running, just as it did before — but this time, it's running inside a Docker container.
 
+## Stopping Your Running Container
+Containers, like any other application, use system resources such as CPU, memory, and network bandwidth. Stopping unused containers frees up these resources.
+
+To stop a running container, you'll need the container's ID or name. You can find this information by listing all running containers:
+
+```bash
+docker ps
+```
+
+Once you've identified the container you want to stop, use the docker stop command followed by the container ID or name:
+
+```bash
+docker stop <container-id or container-name>
+```
+
+**Verify the Container has stopped:**
+```bash
+docker ps -a
+```
+
 ## Bonus: Exploring the Container Environment
-Now that your React application is running inside a Docker container, you might wonder, "Is it really isolated from my local environment?" To answer this, let's dive into the container and see for ourselves.
+When your React application is running inside a Docker container, you might wonder, "Is it really isolated from my local environment?" To answer this, let's dive into the container and see for ourselves.
 
 ### Entering the Running Container
-Docker provides a command, `docker exec`, which allows you to execute commands inside a running container. Using this, you can start an interactive shell session:
+Docker provides a command, `docker exec`, which allows you to execute commands inside a **running container**. Using this, you can start an interactive shell session:
 
 ```bash
 docker exec -it my-app sh
