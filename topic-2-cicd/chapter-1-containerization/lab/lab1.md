@@ -29,7 +29,7 @@ Okay, we have the React application running on our local machine. Imagine you wa
 ### Creating a Dockerfile
 The first step in containerizing your application is to create a Dockerfile. This file contains a set of instructions for Docker to build an image of your application.
 
-In the root directory of your project, create a file named Dockerfile with no file extension. This file will dictate how Docker should package your app and its environment.
+In the root directory of your project, create a file named `Dockerfile` with no file extension. This file will dictate how Docker should package your app and its environment.
 
 **Specifying the Base Image:** Start your Dockerfile with a line specifying the base image. For a React application, a good starting point is the official Node.js image. This ensures your app has all the necessary Node.js tools right from the get-go.
 
