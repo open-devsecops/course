@@ -176,3 +176,18 @@ pipeline {
 }
 ```
 </details>
+
+## Seeing the CI/CD pipeline in Action
+After creating the Jenkinsfile, it's time to see the CI/CD pipeline in action!
+
+1. Commit and push your Jenkinsfile if you haven't already
+2. Make some changes to your application.
+3. Push your changes to the remote repository. This will signal Jenkins to initiate the pipeline, thanks to the webhook you've set up previously.
+4. Navigate to the Jenkins dashboard `http://jenkins.internal` and observe the pipeline you configured starting to run automatically.
+
+
+Once the pipeline completes, view you application at the following url!
+```
+http://{public_ip}:{host_port}
+```
+Replace `{public_ip}` with the public IP address, and `{host_port}` with the specific port number you've chosen during the deployment stage in the Jenkinsfile.
