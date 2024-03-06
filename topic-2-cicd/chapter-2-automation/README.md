@@ -5,6 +5,7 @@
 <aside>
 ⚠️ Imagine you are writing code for a project idea you have yourself. As your project begins to grow, you hire more developers.
 
+
 **Challenge:** With new developers on board, miscommunication and bottlenecks in deploying updates start to emerge. The cohesive understanding of the project diminishes.
 
 </aside>
@@ -31,14 +32,14 @@ Manages server infrastructure and deploys releases. They often face issues due t
 - **Isolation between Development and Operations:** This can lead to communication gaps, conflicting objectives, and inefficiencies.
     
     <aside>
-    💡 **Big Idea:** Developing a product, and then having a different team adapt it to your current production environment creates a lot of confusion and unnecessary back and forth.
+    💡Big Idea: Developing a product, and then having a different team adapt it to your current production environment creates a lot of confusion and unnecessary back and forth.
     
     > ***“Bureaucratic Development”***
     > 
     </aside>
     
     <aside>
-    👉 **Example:**
+    👉Example:
     
     In the "MyApp" project, a web app for document sharing, developers introduced a feature for previewing documents, relying on a third-party API. The development environment used a different API key than what was required for production, leading to a configuration mismatch when deployed.
     
@@ -58,14 +59,14 @@ Manages server infrastructure and deploys releases. They often face issues due t
 - **Slow Release Cycles:** Manual processes and a lack of collaboration can lead to slow release cycles, delaying feedback and improvements.
     
     <aside>
-    💡 **Big Idea:** By not having automatic processes for integration, testing, and deploying code, there is a large margin for human error and a slower rate of deployment.
+    💡 Big Idea: By not having automatic processes for integration, testing, and deploying code, there is a large margin for human error and a slower rate of deployment.
     
     > ***"Manual Testing: Because Robots Need Breaks Too”***
     > 
     </aside>
     
     <aside>
-    👉 **Example:**
+    👉 Example:
     
     In the "StreamlineChat" project, a real-time messaging application, the development team was excited to roll out a much-anticipated video calling feature. However, their process was heavily manual, involving code integration, testing, and deployment, which slowed down the release cycle significantly.
     
@@ -80,14 +81,14 @@ Manages server infrastructure and deploys releases. They often face issues due t
 - **Inconsistency Across Environments:** Manual configurations and deployments can lead to inconsistencies between development, testing, and production environments.
     
     <aside>
-    💡 **Big Idea:** Inconsistencies across environments, stemming from manual configurations and lack of standardization, lead to discrepancies in application behavior and hinder reliable software delivery.
+    💡 Big Idea: Inconsistencies across environments, stemming from manual configurations and lack of standardization, lead to discrepancies in application behavior and hinder reliable software delivery.
     
-    > **😦*”But it works on my machine”* syndrome**
+    > **😦*”But it works on my machine”* syndrome
     > 
     </aside>
     
     <aside>
-    👉 **Example:**
+    👉 Example:
     
     - In the development environment, the new feature worked seamlessly. However, when the code was pushed to the testing environment, testers encountered numerous issues, including crashes and performance problems that were not present during development.
     - Further investigation revealed that the testing environment was running a different version of a key dependency, which was incompatible with the new feature's code. Additionally, certain environment-specific configurations were not correctly applied in the testing and production environments.
@@ -96,7 +97,7 @@ Manages server infrastructure and deploys releases. They often face issues due t
 - **Quality Assurance:** Balancing the need for rapid releases with maintaining high-quality standards can be difficult.
     
     <aside>
-    💡 **Big Idea:** Striking a balance between the speed of software releases and upholding high-quality standards poses a significant challenge, often leading to trade-offs that can compromise product integrity.
+    💡 Big Idea: Striking a balance between the speed of software releases and upholding high-quality standards poses a significant challenge, often leading to trade-offs that can compromise product integrity.
     
     </aside>
     
@@ -119,14 +120,14 @@ Manages server infrastructure and deploys releases. They often face issues due t
 - **Visibility and Monitoring:** Lack of visibility into application performance and system health can delay the identification and resolution of issues.
     
     <aside>
-    💡 **Big Idea:** Insufficient visibility into application performance and system health can significantly hinder the timely detection and resolution of issues, affecting user experience and operational efficiency.
+    💡 Big Idea: Insufficient visibility into application performance and system health can significantly hinder the timely detection and resolution of issues, affecting user experience and operational efficiency.
     
     > ***“Driving with no mirrors”***
     > 
     </aside>
     
     <aside>
-    👉 **Example:**
+    👉 Example:
     
     "Streamline," a video conferencing platform, experienced intermittent downtimes and performance lags that were difficult to predict and diagnose. The development and operations teams struggled to pinpoint the root causes due to a lack of comprehensive monitoring tools and processes.
     
@@ -146,14 +147,14 @@ Manages server infrastructure and deploys releases. They often face issues due t
 - **Scalability and Infrastructure Management:** Scaling applications and managing complex infrastructures manually is time-consuming and error-prone.
     
     <aside>
-    💡 **Big Idea:** It’s difficult to scale with complex infrastructure, especially without a scalable foundation in place.
+    💡 Big Idea: It’s difficult to scale with complex infrastructure, especially without a scalable foundation in place.
     
-    > ⌛️*“**Scaling on Quicksand**”*
+    > ⌛️“**Scaling on Quicksand**”
     > 
     </aside>
     
     <aside>
-    👉 **Example:**
+    👉 Example:
     
     "GlobalShop," an e-commerce platform, experienced rapid growth, leading to unpredictable traffic spikes, especially during holiday sales. The infrastructure, managed manually by the operations team, struggled to scale effectively, resulting in slow load times and, in severe cases, website outages.
     
@@ -173,14 +174,14 @@ Manages server infrastructure and deploys releases. They often face issues due t
 - **Security Concerns:** Integrating security into the software development lifecycle can be challenging, often leading to vulnerabilities.
     
     <aside>
-    💡 **Big Idea:** Adding security after the application is already developed makes it hard to integrate because the code isn’t written to.
+    💡 Big Idea: Adding security after the application is already developed makes it hard to integrate because the code isn’t written to.
     
     > ***“Using handcuffs on an octopus.”***
     > 
     </aside>
     
     <aside>
-    👉 **Example:**
+    👉 Example:
     "SafeNet," a finance management application, initially focused on delivering features rapidly to gain market share, often sidelining security considerations until the later stages of development.
     
     **Issue:** As "SafeNet" grew in popularity, it became a target for cyber attacks, exposing weaknesses in its security posture, such as insufficient data encryption and lack of secure coding practices. This led to data breaches, undermining user trust and attracting regulatory scrutiny.
@@ -199,14 +200,14 @@ Manages server infrastructure and deploys releases. They often face issues due t
 - **Change Management:** Managing and tracking changes across the development lifecycle can be complex, especially in larger teams or projects.
     
     <aside>
-    💡 **Big Idea:** The larger your team is, the harder it is to track who is doing what, which causes many issues.
+    💡 Big Idea: The larger your team is, the harder it is to track who is doing what, which causes many issues.
     
     > ***“Mo devs, mo problems”***
     > 
     </aside>
     
     <aside>
-    👉 **Example:**
+    👉 Example:
     
     "CodeFusion," a project management tool, saw its development pace bog down as the team grew. Every new feature seemed to bring a parade of merge conflicts and version confusion.
     
@@ -226,13 +227,11 @@ Manages server infrastructure and deploys releases. They often face issues due t
 
 ## What is DevOps?
 
-DevOps, short for **Development & Operations**, is a term that describes a collection of different practices, ideas, and frameworks that streamline the development and collaboration process for a product.$^1$ 
+DevOps, short for **Development & Operations**, is a term that describes a collection of different practices, ideas, and frameworks that streamline the development and collaboration process for a product.
 
-![*Source: [Orange Matter](http://orangematter.solarwinds.com/2022/03/21/what-is-devops/) $^4$*](https://prod-files-secure.s3.us-west-2.amazonaws.com/540c06de-c398-4a2d-bd02-bf57be614fe4/5e342784-229e-40a3-8e25-bfc4091a1737/Untitled.png)
+*Source: [Orange Matter](http://orangematter.solarwinds.com/2022/03/21/what-is-devops/)*
 
-*Source: [Orange Matter](http://orangematter.solarwinds.com/2022/03/21/what-is-devops/) $^4$*
-
-### Pillars of DevOps$^5$:
+### Pillars of DevOps:
 
 - **Collaborative Culture & Shared Responsibility**
 - **Automation**
@@ -241,13 +240,11 @@ DevOps, short for **Development & Operations**, is a term that describes a colle
 
 ## What is CI/CD?
 
-CI/CD, short for **Continuous Integration and Continuous Delivery**, is a part of the DevOps process. “It is a collection of principles and practices designed to help development teams ensure the reliable delivery of frequent code changes.”$^1$
+CI/CD, short for **Continuous Integration and Continuous Delivery**, is a part of the DevOps process. “It is a collection of principles and practices designed to help development teams ensure the reliable delivery of frequent code changes.”
 
-![*Source: [Mind The Product](http://www.mindtheproduct.com/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us/)$^6$*](https://prod-files-secure.s3.us-west-2.amazonaws.com/540c06de-c398-4a2d-bd02-bf57be614fe4/14e547da-10a6-44e7-8ace-199ed028c2e6/Untitled.png)
+*Source: [Mind The Product](http://www.mindtheproduct.com/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us/)*
 
-*Source: [Mind The Product](http://www.mindtheproduct.com/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us/)$^6$*
-
-### **DevOps VS CI/CD$^7$:**
+### **DevOps VS CI/CD:**
 
 |  | DevOps | CI | CD |
 | --- | --- | --- | --- |
@@ -259,13 +256,17 @@ Methods to seamlessly deploy code |
 
 ### References
 
-<aside>
-🔎 **1.** Writer, Hossein Ashtari Technical, et al. “Key Differences between CI/CD and DevOps.” *Spiceworks*, [www.spiceworks.com/tech/devops/articles/cicd-vs-devops/](http://www.spiceworks.com/tech/devops/articles/cicd-vs-devops/) . Accessed 20 Feb. 2024. 
+**1.** Writer, Hossein Ashtari Technical, et al. “Key Differences between CI/CD and DevOps.” *Spiceworks*, [www.spiceworks.com/tech/devops/articles/cicd-vs-devops/](http://www.spiceworks.com/tech/devops/articles/cicd-vs-devops/) . Accessed 20 Feb. 2024. 
+
 **2.** “The Importance of Scalability in Software Design.” *Concepta Tech*, [www.conceptatech.com/blog/importance-of-scalability-in-software-design](http://www.conceptatech.com/blog/importance-of-scalability-in-software-design) . Accessed 20 Feb. 2024. 
+
 **3.** “Why Is There a Divide between Dev and Ops?” *CloudBees*, [www.cloudbees.com/blog/why-there-divide-between-dev-and-ops](http://www.cloudbees.com/blog/why-there-divide-between-dev-and-ops) . Accessed 20 Feb. 2024. 
+
 **4.** Charboneau, Tyler. “What Is Devops?” *Orange Matter*, 9 Aug. 2023, [orangematter.solarwinds.com/2022/03/21/what-is-devops/](http://orangematter.solarwinds.com/2022/03/21/what-is-devops/) . 
+
 **5.** “Six Pillars of Devsecops Series.” *CSA*, [cloudsecurityalliance.org/blog/2021/09/09/six-pillars-of-devsecops-series](http://cloudsecurityalliance.org/blog/2021/09/09/six-pillars-of-devsecops-series) . Accessed 20 Feb. 2024. 
+
 **6.** *Mind the Product - Conferences, Training, and Content for the World’s Largest Community of Product Managers, Designers, and Developers.*, [www.mindtheproduct.com/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us/](http://www.mindtheproduct.com/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us/) . Accessed 20 Feb. 2024. 
+
 **7.** Ferringer, Megan. “Here’s the Difference between CI/CD and Devops-and How They Work Together to Drive Innovation.” *Navisite*, 2 Mar. 2023, [www.navisite.com/blog/insights/ci-cd-vs-devops/](http://www.navisite.com/blog/insights/ci-cd-vs-devops/) .
 
-</aside>
