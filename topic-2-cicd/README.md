@@ -1,1 +1,8 @@
 # Topic 2 - Continuous Integration / Continuous Deployment (CI/CD)
+
+| Chapter | Learning Objectives | Lab Description |
+|---------|---------------------|-----------------|
+| Chapter 1: Containerization | - Define containerization<br> - Understand container images and runtime<br> - Explore benefits<br> - Introduction to artifact repositories | **Lab 1: Containerization**<br>Objective: Gain hands-on experience with containerizing applications and using a registry.<br>- Dockerize a reference application or BYOA (Bring Your Own Application).<br>- Push the container image to an artifactory.<br>- Pull the container image and run the containerized app locally. |
+| Chapter 2: What is DevOps and CI/CD | - Explain DevOps and CI/CD concepts<br> - Discuss advantages<br> - Cover key principles and best practices | N/A |
+| Chapter 3: Deployment | - Clarify deployment environments (Dev, Staging, Prod)<br> - Explore deployment strategies<br> - Implement CI with Web Hooks | **Lab 2: Automating the CI/CD Pipeline**<br>Objective: Understand the significance of automation in the CI/CD process and gain hands-on experience using webhook triggers.<br>- Configure a CI/CD pipeline using Jenkins.<br>- Set up webhooks to trigger the pipeline on a new commit.<br>- Implement a deployment job that automatically deploys the containerized app to a production-like environment. |
+| Chapter 4: Automated Tests in CI/CD (Optional) | - Distinguish between unit and integration testing | **Lab 3: Automated Tests in CI/CD**<br>Integrate automated testing into the CI/CD pipeline to ensure code quality.<br>- Incorporate unit and integration tests into the pipeline.<br>- Configure the pipeline to run tests automatically before deployment, with deployment contingent on passing tests. |
